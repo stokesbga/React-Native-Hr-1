@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { View } from "react-native";
 //Styles
 import styles from "./HrStyles";
-//Validation
-import PropTypes from "prop-types";
 
 export default class Hr extends Component {
   render() {
@@ -26,10 +24,3 @@ export default class Hr extends Component {
     );
   }
 }
-
-//Validate all props
-Hr.propTypes = {
-  width: PropTypes.number,
-  color: PropTypes.color,
-  children: PropTypes.children
-};
